@@ -1,0 +1,32 @@
+# Como subir proyectos a github por primera vez (Primer commit)
+# Necesario ya tener instalado Git
+
+#1.Loggearnos en Github
+
+#2. Una vez loggeados, crear un nuevo repositorio con el nombre y privacidad que querramos (o podamos,
+#si es que hemos pagado el premium)
+
+#3.Copiar el código de "git add remote origin... " y "git push -u origin master", los cuales
+# nos servirá para subir nuestro proyecto en los siguientes pasos
+
+#4.En la terminal, ir al directorio donde tenemos el proyecto que queremos subir.
+# ej: $cd github/prog_basica_platzi
+
+# 2.Inicializar un repositorio de git con el comando "git init"
+# ej: $git init
+# Te saldrá un mensaje parecido al siguiente:
+# Reinicializado el repositorio Git existente en /home/angel/github/prog_basica_platzi/.git/
+
+#3. Tenemos que crear un repositorio en git por lo que ejecutamos el comando "git add ."
+# ej: $git add .
+
+#4.Ya que tenemos nuestro repositorio de git creado ahora tenemos que agregar el/los archivos
+#de nuestro proyecto al repositorio con el siguiente comando:
+# $git commit -m "Mensaje que queremos poner a este commit"
+# ej. $git commit -m "primer commit (Que original!)"
+#Esto agregará todos los archivos a nuestro repositorio de github
+
+#5.Pegamos nuestros códigos de git add remote del paso 3 y los ejecutamos en la terminal
+#Nos pedirá que nos loggeemos con nuestro usuario de github
+#comenzará a subir los archivos y listo ahora tenemos nuestros archivos
+#en el repositorio de github.
